@@ -1,0 +1,6 @@
+-module(riak_rdf).
+
+-record(statement, {subject_uri, predicate_uri, object})
+
+-record(uri, {uri}).
+
